@@ -18,7 +18,11 @@ class NewRelicInteractor implements NewRelicInteractorInterface
      */
     public function setApplicationName($name)
     {
-        newrelic_set_appname($name);
+    	/**
+    	 * Modified by FotoMerchant.com
+    	 * This is commented out because it causes issues
+    	 */
+//         newrelic_set_appname($name);
     }
 
     /**
