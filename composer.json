@@ -21,7 +21,7 @@
         "symfony/symfony": "*"
     },
     "autoload": {
-        "psr-0": { "DerekClapham\\Bundle\\NewRelicBundle": "" }
+        "psr-0": { "Ekino\\Bundle\\NewRelicBundle": "" }
     },
-    "target-dir": "DerekClapham/Bundle/NewRelicBundle"
+    "target-dir": "Ekino/Bundle/NewRelicBundle"
 }
